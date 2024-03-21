@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="=UTF-8">
+        <meta name="viewport" content="width-device-width">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Encriptador de Texto</h1>
+            <img src="imagenes/logo-alura.png">
+            <p>&#9888; Sólo letras minúsculas y sin acentos.</p>
+        </header>
+        <main>
+            <div class="areas">
+                <textarea placeholder="Ingresa el texto que desees encriptar o desencriptar." id="area-texto"></textarea>
+                <img src="imagenes/muñeco.png">
+                <textarea readonly id="area-mensaje"></textarea>
+            </div>
+        </main>
+        <footer>
+            <div class="botones">
+                <button class="boton-uno" onclick="botonEncriptar(), validarTexto()">Encriptar</button>
+                <button class="boton-dos" onclick="botonDesencriptar()">Desencriptar</button>
+                <button class="boton-copiar" onclick="copiarTexto()">Copiar</button>
+            </div>
+            <div class="copy">
+                <p>&#169; Agustin Miranda - Alura Latam</p>
+
+            </div>
+
+        </footer>
+        <script src="app.js"></script>
+
+    </body>

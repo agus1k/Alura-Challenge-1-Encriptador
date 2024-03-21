@@ -1,0 +1,136 @@
+body{
+  background-color: #DDF5FC;
+  font-family: "Commissioner", sans-serif;
+}
+
+header h1 {
+  width: 1890px;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 100px;
+  color: #16425B;
+  font-weight: bold;
+}
+
+header img{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+position: absolute;
+width: 120px;
+height: 48px;
+left: 20px;
+top: 40px;
+
+
+}
+
+header p{
+  margin-left: 773px;
+  margin-top: 500px;
+  font-size: 20px;
+  color: #16425B;
+}
+
+.areas{
+ position: absolute;
+ left: 220px;
+ top: 300px;
+}
+
+.areas textarea{
+  padding: 10px;
+  font-size: 25px;
+  width:500px ;
+  height: 400px;
+  border-radius: 20px;
+  border-color: #16425B;
+  font-family: "Commissioner";
+  color: #16425B;
+  resize: none;
+}
+
+textarea::placeholder{
+  
+  font-family: "Commissioner";
+  font-size: 25px;
+  color: #16425B
+}
+
+.areas textarea:focus{
+border-color:#16425B ;
+outline: none;
+}
+
+.areas img{
+margin-bottom: 90px;
+margin-left: 30px;
+}
+
+#area-mensaje{
+ 
+  border-radius: 20px;
+  margin-left: 70px;
+  
+}
+
+.botones{
+  padding-left: 234px;
+  padding-top: 20px;
+  width: 250px;
+  height: 67px;
+}
+
+.boton-uno{
+
+padding: 25px 80px 25px 80px;
+border-radius: 20px;
+font-size: 20px;
+background-color: #16425B;
+color: #DDF5FC;
+border: none;
+}
+
+.boton-uno:hover{
+  cursor: pointer;
+}
+
+.boton-dos{
+  position: absolute;
+  margin-left: 10px;
+  padding: 25px 60px 25px 60px;
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: #16425B;
+  color: #DDF5FC;
+  border: none;
+}
+
+.boton-dos:hover{
+  cursor:pointer;
+}
+
+.boton-copiar{
+  position: absolute;
+  margin-left: 830px;
+  padding: 25px 90px 25px 90px;
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: #16425B;
+  color: #DDF5FC;
+  border: none;
+
+}
+
+.boton-copiar:hover{
+  cursor: pointer;
+}
+
+.copy{
+  padding-left:830px;
+  padding-top: 50px;
+  color: #16425B;
+}
+
